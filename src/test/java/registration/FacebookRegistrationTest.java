@@ -27,7 +27,7 @@ public class FacebookRegistrationTest {
     @AfterMethod
     // 10. Close the browser
     public void setClosing(){
-        driver.close();
+        this.driver.close();
     }
 
     @Test
@@ -67,5 +67,4 @@ public class FacebookRegistrationTest {
         // boolean popUpIsDisplayed = popup.isDisplayed();
         // Assert.assertEquals(popUpIsDisplayed, true);
     }
-
 }
